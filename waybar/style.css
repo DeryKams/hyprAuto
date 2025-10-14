@@ -1,0 +1,7 @@
+/* аккуратная тема: полупрозрачный фон и скругления */
+* { font-family: "Noto Sans", "DejaVu Sans", sans-serif; font-size: 12pt; }
+window { background: rgba(25,25,28,0.6); }
+#workspaces button { padding: 0 8px; margin: 4px 2px; border-radius: 8px; }
+#pulseaudio, #network, #battery, #clock, #tray, #window {
+  padding: 0 10px; margin: 4px 6px; border-radius: 8px; background: rgba(0,0,0,0.25);
+}
