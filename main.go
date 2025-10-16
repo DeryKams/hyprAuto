@@ -94,7 +94,7 @@ func CopySelected(destRoot string, paths []string) error {
 
 func main() {
 
-	var neededPackages bool = true
+	var neededPackages bool = false
 
 	if neededPackages == true {
 		pkgList := []string{
